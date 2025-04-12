@@ -30,7 +30,7 @@ struct offset_time {
 
 using date_time_t = offset_time;
 
-exern std::optional<date_time_t> now_test;
+extern std::optional<date_time_t> now_test;
 
 date_time_t now();
 
